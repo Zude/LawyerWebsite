@@ -13,9 +13,16 @@ export class MainComponent implements OnInit {
   introduction = 'Hey ich bin ein cooler Anwalt für cooles Zeug!!!';
   services = 'Ich mache dies und das außerdem dings';
   aboutme = 'ich bin ein geiler boi und habe viel erfahrung';
+
+  scroll(el) {
+    el.scrollIntoView({behavior: "smooth"});
+  }
+  
   constructor() { }
 
   ngOnInit() {
+
+    
   }
 
 }

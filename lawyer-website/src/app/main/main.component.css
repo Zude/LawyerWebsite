@@ -1,22 +1,50 @@
 .title{
     background-image: url("/assets/images/law.jpg");
     height: 500px;
-    line-height: 480px;
+
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
     color: #F5F5F5;
-  
+
+    
 }
 .header{
     font-size: 50px;
-    display: inline-block;
-    vertical-align: middle;
-    line-height: normal;
+    padding-top: 100px;
 }
+
+
 
 .header2{
     color: darkgray 
 }
+
+
+
+.myButton {
+	
+	background-color:#19cfc0;
+	-moz-border-radius:7px;
+	-webkit-border-radius:7px;
+	border-radius:7px;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:17px;
+	width: 120px;
+    height: 50px;
+    margin: 20px;
+    margin-top: 150px;
+    padding: 0;
+    display: inline-block;
+    line-height: 50px;
+    text-align: center;
+}
+
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
