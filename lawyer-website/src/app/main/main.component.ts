@@ -10,8 +10,21 @@ export class MainComponent implements OnInit {
   name = 'Klaus Löffler';
   job = 'Rechtsanwalt';
   subHead = 'Ich bin der Anwalt deines Vertrauens';
-  introduction = 'Hey ich bin ein cooler Anwalt für cooles Zeug!!!';
-  services = 'Ich mache dies und das außerdem dings';
+  introduction = 'Willkommen auf meiner Homepage';
+  intro1 = 'Hier finden sie einen richtig guten Text, der sie sofort von dieser atemberaubenden Homepage und mir als anwalt total überzeugt. ja ich bin ein super coller typ';
+
+  services = 'Leistungen';
+  serv1 = 'Strafrecht';
+  serv2 = 'Familienrecht';
+  serv3 = 'Zivilrecht';
+  serv4 = 'Andere';
+  serv5 = 'Dies das Recht';
+  serv1text = 'das thema ist super wichtig und ich bin voll gut daron';
+  serv2text = 'das thema ist super wichtig und ich bin voll gut daron';
+  serv3text = 'das thema ist super wichtig und ich bin voll gut daron';
+  serv4text = 'das thema ist super wichtig und ich bin voll gut daron';
+  serv5text = 'das thema ist super wichtig und ich bin voll gut daron';
+  
   aboutme = 'ich bin ein geiler boi und habe viel erfahrung';
 
   scroll(el) {

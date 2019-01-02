@@ -1,27 +1,120 @@
-.title{
-    background-image: url("/assets/images/law.jpg");
-    height: 500px;
-
+div {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
-    color: #F5F5F5;
-
-    
+    color: black;
+	color: #666;
 }
-.header{
+
+.title{
+    background-image: url("/assets/images/law.jpg");
+    height: 700px;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: #ffffff;
+    margin-left: auto;
+	margin-right: auto;
+}
+
+.titleHead{
     font-size: 50px;
     padding-top: 100px;
 }
 
-
-
-.header2{
-    color: darkgray 
+.justic{
+    height: 80%;
+    width: 50%;
+    margin-top: 20px;
+    float: left;
 }
 
+.intro{
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    height: 500px;
+}
+
+#introText{
+width: 50%;
+}
+
+#intro3{
+    font-size: 30px;
+    height: 25%;
+}
+
+#intro2{
+    font-size: 20px;
+}
+
+
+.serv{
+    background-image: url("/assets/images/books.jpg"); 
+    display: flex;
+    flex-direction: row;
+    height: 700px;
+    flex-flow: row wrap;
+}
+
+#servHead{
+    width: 100%;
+    font-size: 50px;
+    margin-bottom: 0%;
+    margin-top: 5%;
+    color: #ffffff;
+}
+
+.servChild{
+    display: flex;
+    flex-direction: row;
+    height: 25%;
+    width: 40%;
+    margin: auto;
+    color: #ffffff;
+}
+
+h3{
+    font-size: 25px;
+    color: #ffffff;
+}
+
+.serveText{
+    color: #ffffff;
+}
+
+.newWage{
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+    border-radius: 50%;
+}
+
+.cont{
+    background-image: url("/assets/images/phone.jpg"); 
+}
+
+.abme{
+    background-color: #aaaa; 
+}
+
+
+
+#intro2{
+
+    margin: 50px;
+}
+
+#intro3{
+
+    margin: 50px;
+}
 
 
 .myButton {
@@ -31,12 +124,13 @@
 	-webkit-border-radius:7px;
 	border-radius:7px;
 	cursor:pointer;
-	color:#ffffff;
+    color:#ffffff;
+   
 	font-size:17px;
 	width: 120px;
     height: 50px;
     margin: 20px;
-    margin-top: 150px;
+    margin-top: 300px;
     padding: 0;
     display: inline-block;
     line-height: 50px;

@@ -1,175 +1,73 @@
-<div class="title">
-  <div class="test"></div>
-  <h1 class="header">{{job}} <br/> {{name}}</h1>
-  <button class="myButton" (click)="scroll(test)"> Über mich</button>
-  <button class="myButton" (click)="scroll(test)"> Leistungen</button>
-  <button class="myButton" (click)="scroll(test)"> Bla</button>
-</div>
+
+  <div class="title">
+    <h1 class="titleHead">{{job}} <br/> {{name}}</h1>
+    <button class="myButton" (click)="scroll(abme)"> Über mich</button>
+    <button class="myButton" (click)="scroll(serv)"> Leistungen</button>
+    <button class="myButton" (click)="scroll(cont)"> Kontakt</button>
+  </div>
 
 
-<div #test> 
-    <p>{{introduction}}</p>
-</div>
-<div>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
-  <p>{{services}}</p>
 
-</div>
-<div>
-  <p>{{aboutme}}</p>
-</div>
-<button class="myButton" (click)="scroll(test)"> BUTTON</button>
+
+
+  <div class='intro' #intro> 
+      <img class='justic' src="/assets/images/wage.png" alt="Bild einer Wage" >
+    <div id="introText">
+      <h2 id='intro3'>{{introduction}}</h2>
+      <p id='intro2'>{{intro1}}</p>
+      <p id='intro2'>{{intro1}}</p>
+    </div>
+      
+  </div>
+
+  
+
+
+
+  <div class='serv' #serv>
+    <h2 id="servHead">{{services}}</h2>
+    <div class='servChild'>
+      <div class="serveText">
+        <h3>{{serv1}}</h3>
+        <p>{{serv1text}}</p>
+      </div>
+        <img class='newWage' src="/assets/images/happy.jpg" alt="Bild einer Wage" >
+    </div>
+    <div class='servChild'>
+        <img class='newWage' src="/assets/images/happy.jpg" alt="Bild einer Wage" >
+        <div class="serveText">
+          <h3>{{serv2}}</h3>
+          <p>{{serv2text}}</p>
+        </div>
+          
+      </div>
+      <div class='servChild'>
+          <div class="serveText">
+            <h3>{{serv3}}</h3>
+            <p>{{serv3text}}</p>
+          </div>
+          <img class='newWage' src="/assets/images/happy.jpg" alt="Bild einer Wage" >
+        </div>
+        <div class='servChild'>
+            <img class='newWage' src="/assets/images/happy.jpg" alt="Bild einer Wage" >
+            <div class="serveText">
+              <h3>{{serv4}}</h3>
+              <p>{{serv4text}}</p>
+            </div>
+          </div>
+    
+    
+  </div>
+  <div class='abme' #abme>
+    <h2>{{aboutme}}</h2>
+    <h3>{{name}}</h3>
+    <p>{{aboutme1}}</p>
+    <p>{{aboutme2}}</p>
+    <p>{{aboutme3}}</p>
+  </div>
+  <div class='cont' #cont>
+    <h2>{{contact}}</h2>
+  </div>
+  <div #impress>{{impressum}}</div>
+
+
