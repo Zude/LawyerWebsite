@@ -1,73 +1,78 @@
+<div class="titleContainer">
+  <h1 class="titleHead">{{job}} <br /> {{name}}</h1>
+  <button class="titleButton" (click)="scroll(abme)"> Über mich</button>
+  <button class="titleButton" (click)="scroll(serv)"> Leistungen</button>
+  <button class="titleButton" (click)="scroll(cont)"> Kontakt</button>
+</div>
 
-  <div class="title">
-    <h1 class="titleHead">{{job}} <br/> {{name}}</h1>
-    <button class="myButton" (click)="scroll(abme)"> Über mich</button>
-    <button class="myButton" (click)="scroll(serv)"> Leistungen</button>
-    <button class="myButton" (click)="scroll(cont)"> Kontakt</button>
+
+
+
+
+<div class='introContainer' #intro>
+  <img id='introImg' src="/assets/images/law.jpg" alt="Bild einer Wage">
+  <div id="introElem">
+    <h2>{{introduction}}</h2>
+    <p class="introText">{{intro1}}</p>
+    <p class="introText">{{intro1}}</p>
   </div>
 
+</div>
 
 
 
 
-  <div class='intro' #intro> 
-      <img class='justic' src="/assets/images/wage.png" alt="Bild einer Wage" >
-    <div id="introText">
-      <h2 id='intro3'>{{introduction}}</h2>
-      <p id='intro2'>{{intro1}}</p>
-      <p id='intro2'>{{intro1}}</p>
+
+<div class='servContainer' #serv>
+  <h2 id="servHead">{{services}}</h2>
+  <div class='servElem'>
+    <div class="serveText">
+      <h3 class="lawClass">{{serv1}}</h3>
+      <p>{{serv1text}}</p>
     </div>
-      
+    <img class='newWage' src="/assets/images/happy.jpg" alt="Bild einer Wage">
   </div>
-
-  
-
-
-
-  <div class='serv' #serv>
-    <h2 id="servHead">{{services}}</h2>
-    <div class='servChild'>
-      <div class="serveText">
-        <h3>{{serv1}}</h3>
-        <p>{{serv1text}}</p>
-      </div>
-        <img class='newWage' src="/assets/images/happy.jpg" alt="Bild einer Wage" >
+  <div class='servElem'>
+    <img class='newWage' src="/assets/images/happy.jpg" alt="Bild einer Wage">
+    <div class="serveText">
+      <h3 class="lawClass">{{serv2}}</h3>
+      <p>{{serv2text}}</p>
     </div>
-    <div class='servChild'>
-        <img class='newWage' src="/assets/images/happy.jpg" alt="Bild einer Wage" >
-        <div class="serveText">
-          <h3>{{serv2}}</h3>
-          <p>{{serv2text}}</p>
-        </div>
-          
-      </div>
-      <div class='servChild'>
-          <div class="serveText">
-            <h3>{{serv3}}</h3>
-            <p>{{serv3text}}</p>
-          </div>
-          <img class='newWage' src="/assets/images/happy.jpg" alt="Bild einer Wage" >
-        </div>
-        <div class='servChild'>
-            <img class='newWage' src="/assets/images/happy.jpg" alt="Bild einer Wage" >
-            <div class="serveText">
-              <h3>{{serv4}}</h3>
-              <p>{{serv4text}}</p>
-            </div>
-          </div>
-    
+  </div>
+  <div class='servElem'>
+    <div class="serveText">
+      <h3 class="lawClass">{{serv3}}</h3>
+      <p>{{serv3text}}</p>
+    </div>
+    <img class='newWage' src="/assets/images/happy.jpg" alt="Bild einer Wage">
+  </div>
+  <div class='servElem'>
+    <img class='newWage' src="/assets/images/happy.jpg" alt="Bild einer Wage">
+    <div class="serveText">
+      <h3 class="lawClass">{{serv4}}</h3>
+      <p>{{serv4text}}</p>
+    </div>
+  </div>
+</div>
+
+
+
+<div class='abmeContainer' #abme>
+  <div class="abmeElem">
+    <h2 class="abmeText">{{aboutme}}</h2>
+    <p class="introText">{{intro1}}</p>
     
   </div>
-  <div class='abme' #abme>
-    <h2>{{aboutme}}</h2>
-    <h3>{{name}}</h3>
-    <p>{{aboutme1}}</p>
-    <p>{{aboutme2}}</p>
-    <p>{{aboutme3}}</p>
-  </div>
-  <div class='cont' #cont>
+  <img id='klausImg' src="/assets/images/cloony.jpg" alt="Schöner typ">
+</div>
+
+<div class='contactContainer'>
     <h2>{{contact}}</h2>
   </div>
-  <div #impress>{{impressum}}</div>
 
 
+
+<div class='contactContainer2' #cont>
+  <h2>{{contact}}</h2>
+</div>
+<div #impress>{{impressum}}</div>

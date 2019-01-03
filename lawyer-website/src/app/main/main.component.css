@@ -5,129 +5,133 @@ div {
     background-size: cover;
     text-align: center;
     color: black;
-	color: #666;
+    color:#151515;
 }
 
-.title{
-    background-image: url("/assets/images/law.jpg");
-    height: 700px;
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
+    width: 100%;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+.titleContainer {
+    background-image: url("/assets/images/suit.jpg");
+    height: 800px;
     width: 100%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
-    color: #ffffff;
+    color:  #FAFAFA;
     margin-left: auto;
-	margin-right: auto;
+    margin-right: auto;
 }
 
-.titleHead{
+.titleHead {
     font-size: 50px;
     padding-top: 100px;
 }
 
-.justic{
+.introContainer {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+    height: px;
+}
+
+#introElem {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    align-items: top;
+    
+    width: 40%;
     height: 80%;
-    width: 50%;
-    margin-top: 20px;
-    float: left;
+    margin: 5%;
 }
 
-.intro{
+#introImg {
+    height: 80%;
+    width: 35%;
+    margin: 5%;
+    border: 2px solid #151515;
+    
+}
+
+.introText{
+    color: #2E2E2E;
+}
+
+.servContainer {
     display: flex;
     flex-direction: row;
     flex-flow: row wrap;
-    height: 500px;
-}
-
-#introText{
-width: 50%;
-}
-
-#intro3{
-    font-size: 30px;
-    height: 25%;
-}
-
-#intro2{
-    font-size: 20px;
-}
-
-
-.serv{
-    background-image: url("/assets/images/books.jpg"); 
-    display: flex;
-    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #151515;
     height: 700px;
-    flex-flow: row wrap;
 }
 
-#servHead{
+#servHead {
     width: 100%;
-    font-size: 50px;
     margin-bottom: 0%;
     margin-top: 5%;
     color: #ffffff;
 }
 
-.servChild{
+.servElem {
     display: flex;
     flex-direction: row;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
     height: 25%;
     width: 40%;
-    margin: auto;
     color: #ffffff;
 }
 
-h3{
-    font-size: 25px;
+.serveText {
     color: #ffffff;
 }
 
-.serveText{
-    color: #ffffff;
-}
-
-.newWage{
+.newWage {
     width: 150px;
     height: 150px;
     margin: 5px;
     border-radius: 50%;
 }
 
-.cont{
-    background-image: url("/assets/images/phone.jpg"); 
+.cont {
+    background-image: url("/assets/images/phone.jpg");
 }
 
-.abme{
-    background-color: #aaaa; 
-}
-
-
-
-#intro2{
-
+#intro2 {
     margin: 50px;
 }
 
-#intro3{
-
+#intro3 {
     margin: 50px;
 }
 
-
-.myButton {
-	
-	background-color:#19cfc0;
-	-moz-border-radius:7px;
-	-webkit-border-radius:7px;
-	border-radius:7px;
-	cursor:pointer;
-    color:#ffffff;
-   
-	font-size:17px;
-	width: 120px;
+.titleButton {
+    background-color: #19cfc0;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    border-radius: 7px;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 17px;
+    width: 120px;
     height: 50px;
     margin: 20px;
     margin-top: 300px;
@@ -138,7 +142,50 @@ h3{
 }
 
 .myButton:active {
-	position:relative;
-	top:1px;
+    position: relative;
+    top: 1px;
+}
+
+.abmeContainer {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+    height: 500px;
+    background-color: #FAFAFA;
+   
+}
+
+#klausImg {
+    height: 80%;
+    width: 40%;
+    margin: 5%;
+}
+
+.abmeElem {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    align-items: top;
+    justify-content: space-evenly;
+    width: 40%;
+    height: 80%;
+    margin: 5%;
+}
+
+.abmeText{
+    color:#2E2E2E;
+    
+}
+
+.contactContainer{
+    height: 300px;
+    background-image: url("/assets/images/books2.jpg");
+}
+
+.contactContainer2{
+    height: 600px;
+    ;
 }
 
