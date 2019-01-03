@@ -1,8 +1,19 @@
 <div class="titleContainer">
   <h1 class="titleHead">{{job}} <br /> {{name}}</h1>
-  <button class="titleButton" (click)="scroll(abme)"> Über mich</button>
-  <button class="titleButton" (click)="scroll(serv)"> Leistungen</button>
-  <button class="titleButton" (click)="scroll(cont)"> Kontakt</button>
+  <div class="titleElem">
+      <button class="titleButton" (click)="scroll(abme)"> Über mich</button>
+      <button class="titleButton" (click)="scroll(serv)"> Leistungen</button>
+      <button class="titleButton" (click)="scroll(cont)"> Kontakt</button>
+  </div>
+  <div class="mouse_scroll">
+
+     
+      <div>
+        <span class="m_scroll_arrows unu"></span>
+        <span class="m_scroll_arrows doi"></span>
+        <span class="m_scroll_arrows trei"></span>
+      </div>
+  </div>
 </div>
 
 
@@ -16,6 +27,7 @@
     <p class="introText">{{intro1}}</p>
     <p class="introText">{{intro1}}</p>
   </div>
+  
 
 </div>
 
@@ -66,13 +78,29 @@
   <img id='klausImg' src="/assets/images/cloony.jpg" alt="Schöner typ">
 </div>
 
-<div class='contactContainer'>
+<div class='backgroundContainer'>
     <h2>{{contact}}</h2>
   </div>
 
 
 
-<div class='contactContainer2' #cont>
-  <h2>{{contact}}</h2>
+<div class='contactContainer' #cont>
+  <div class="contactElem">
+
+  </div>
+  <div class="contactElem">
+
+  </div>
+ 
 </div>
-<div #impress>{{impressum}}</div>
+
+<nav>
+    <a routerLink="/kontakt">Kontakt</a>
+    <a routerLink="/impressum">Impressum</a>
+</nav>
+
+<form action="https://formspree.io/alex.93.loeffler@me.com" method="POST">
+  <input type="text" name="name">
+  <input type="email" name="_replyto">
+  <input type="submit" value="Send">
+</form>

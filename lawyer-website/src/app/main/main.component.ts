@@ -10,7 +10,7 @@ export class MainComponent implements OnInit {
   name = 'Klaus Löffler';
   job = 'Rechtsanwalt';
   subHead = 'Ich bin der Anwalt deines Vertrauens';
-  introduction = 'Willkommen auf meiner Homepage';
+  introduction = 'Willkommen';
   intro1 = 'Hier finden sie einen richtig guten Text, der sie sofort von dieser atemberaubenden Homepage und mir als anwalt total überzeugt. j Hier finden sie einen richtig guten Text, der sie sofort von dieser atemberaubenden Homepage und mir als anwalt total überzeugt. ja ich bin ein super coller typa ich bin ein super coller typ';
 
   services = 'Leistungen';
