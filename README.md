@@ -1,2 +1,2 @@
 # LawyerWebsite
-Homepage project for an lawyer
+Website Project 
