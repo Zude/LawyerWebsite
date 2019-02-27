@@ -33,11 +33,11 @@ export class MainComponent implements OnInit {
 
   addressHead = 'Anschrift';
   contactHead = 'Kontakt';
-  addressAddress = 'hermanstraße 1234';
+  addressAddress = 'Hermanstraße 123';
   addressPLZ = '12345';
   addressCity = 'Hamburg';
   addressCountry = 'Deutschland';
-  
+
   scroll(el) {
     el.scrollIntoView({behavior: "smooth"});
   }
