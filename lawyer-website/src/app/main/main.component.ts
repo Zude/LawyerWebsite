@@ -31,6 +31,13 @@ export class MainComponent implements OnInit {
   aboutme3 = 'hdufgbnaougosahgfhsoifhioahfioebguobuigbiuafbesuof';
   aboutm4 = 'hdufgbnaougosahgfhsoifhioahfioebguobuigbiuafbesuof';
 
+  addressHead = 'Anschrift';
+  contactHead = 'Kontakt';
+  addressAddress = 'hermanstraße 1234';
+  addressPLZ = '12345';
+  addressCity = 'Hamburg';
+  addressCountry = 'Deutschland';
+  
   scroll(el) {
     el.scrollIntoView({behavior: "smooth"});
   }
