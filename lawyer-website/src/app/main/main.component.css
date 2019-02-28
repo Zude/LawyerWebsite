@@ -460,8 +460,18 @@ h3 {
         color: #ffffff;
       }
 
-      .titleContainer{
-          height: 600px;
+      
+
+     
+}
+
+@media (hover: none) {
+    .titleContainer{
+        background-attachment: initial;
+        height: 600px;
       }
 
-}
+      .backgroundContainer{
+        background-attachment: initial; 
+      }
+ }
