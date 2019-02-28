@@ -1,21 +1,18 @@
 <div class="titleContainer">
   <h1 class="titleHead">{{job}} <br /> {{name}}</h1>
   <div class="titleElem">
-      <button class="titleButton" (click)="scroll(abme)"> Über mich</button>
-      <button class="titleButton" (click)="scroll(serv)"> Leistungen</button>
-      <button class="titleButton" (click)="scroll(cont)"> Kontakt</button>
+    <button class="titleButton" (click)="scroll(abme)"> Über mich</button>
+    <button class="titleButton" (click)="scroll(serv)"> Leistungen</button>
+    <button class="titleButton" (click)="scroll(cont)"> Kontakt</button>
   </div>
   <div class="mouse_scroll">
-
-     
-      <div>
-        <span class="m_scroll_arrows unu"></span>
-        <span class="m_scroll_arrows doi"></span>
-        <span class="m_scroll_arrows trei"></span>
-      </div>
+    <div>
+      <span class="m_scroll_arrows unu"></span>
+      <span class="m_scroll_arrows doi"></span>
+      <span class="m_scroll_arrows trei"></span>
+    </div>
   </div>
 </div>
-
 
 
 
@@ -27,11 +24,7 @@
     <p class="introText">{{intro1}}</p>
     <p class="introText">{{intro1}}</p>
   </div>
-  
-
 </div>
-
-
 
 
 
@@ -70,44 +63,75 @@
 
 
 
+
 <div class='abmeContainer' #abme>
   <div class="abmeElem">
     <h2 class="abmeText">{{aboutme}}</h2>
     <p class="introText">{{intro1}}</p>
-    
   </div>
+
+  <div class="abmeElem">
   <img id='klausImg' src="/assets/images/cloony.jpg" alt="Schöner typ">
+</div>
 </div>
 
 <div class='backgroundContainer'>
-    
-  </div>
+</div>
+
 
 
 
 <div class='contactContainer' #cont>
   <div class="contactElem">
-    <h2>{{addressHead}}</h2>
+    <h2><fa name="map-marker"></fa> {{addressHead}}</h2>
     <img id='lageImg' src="/assets/images/lage.jpg" alt="Schöner typ">
     <address>
-      <a target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/search/?api=1&query=53.5520978,9.9941995&query_place_id=ChIJlRfBLByPsUcRdOdTwARXiNA">Hermannstraße 14</a><br>
+      <a target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/search/?api=1&query=53.5520978,9.9941995&query_place_id=ChIJlRfBLByPsUcRdOdTwARXiNA">Hermannstraße
+        14</a><br>
       {{addressPLZ}} {{addressCity}}<br>
       {{addressCountry}}<br>
-      </address>
+    </address>
   </div>
   <div class="contactElem">
-    <h2>{{contactHead}}</h2>
-    
-    
+    <h2><fa name="address-card"></fa> {{contactHead}}</h2>
+    <div>
+        <br>
+      <fa name="envelope"></fa>&nbsp;<a href="mailto:m.mustermann@domain.de">klas.peter@example.com</a>
   </div>
-  
- 
+  <div>
+      <br>
+    <fa name="mobile"></fa> {{number}}
+  </div>
+   <div>
+      <br>
+      <fa name="fax"></fa> {{fax}}
+      <br><br>
+   </div> 
+   <div>
+     <b>{{timesTitle}}</b>
+     <br>
+     {{times}}
+     <br>
+     {{times}}
+     <br>
+     
+   </div>
+   
+  </div>
 </div>
 
+
+
+
+
 <nav>
-    <a routerLink="/kontakt">Kontakt</a>
-    <a routerLink="/impressum">Impressum</a>
+  <a routerLink="/kontakt">Kontakt</a>
+  <a routerLink="/impressum">Impressum</a>
 </nav>
+
+
+
+
 
 <form action="https://formspree.io/alex.93.loeffler@me.com" method="POST">
   <input type="text" name="name">

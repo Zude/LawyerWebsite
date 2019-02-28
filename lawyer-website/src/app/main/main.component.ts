@@ -38,6 +38,11 @@ export class MainComponent implements OnInit {
   addressCity = 'Hamburg';
   addressCountry = 'Deutschland';
 
+  number = '12345678';
+  fax = '987654321';
+  timesTitle = 'Sprechzeiten:';
+  times = 'Mittwoch 09:00-13:00 Uhr';
+
   scroll(el) {
     el.scrollIntoView({behavior: "smooth"});
   }
