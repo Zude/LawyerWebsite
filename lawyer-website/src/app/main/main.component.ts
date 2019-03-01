@@ -41,7 +41,7 @@ export class MainComponent implements OnInit {
   number = '12345678';
   fax = '987654321';
   timesTitle = 'Sprechzeiten:';
-  times = 'Mittwoch 09:00-13:00 Uhr';
+  times = 'Mittwoch 09:00-13:00';
 
   scroll(el) {
     el.scrollIntoView({behavior: "smooth"});
