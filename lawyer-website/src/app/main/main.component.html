@@ -1,4 +1,5 @@
-<div class="titleContainer">
+<!-- Title -->
+<div class="titleContainer" #top>
   <h1 class="titleHead">{{job}} <br /> {{name}}</h1>
   <div class="titleElem">
     <button class="titleButton" (click)="scroll(abme)"> Über mich</button>
@@ -16,7 +17,7 @@
 
 
 
-
+<!-- Intro/Vorstellung -->
 <div class='introContainer' #intro>
   <img id='introImg' src="/assets/images/law.jpg" alt="Bild einer Wage">
   <div id="introElem">
@@ -28,7 +29,7 @@
 
 
 
-
+<!-- Services/Leistungen -->
 <div class='servContainer' #serv>
   <h2 id="servHead">{{services}}</h2>
   <div class='servElem'>
@@ -63,7 +64,7 @@
 
 
 
-
+<!-- About Me / Ueber Mich -->
 <div class='abmeContainer' #abme>
   <div class="abmeElem">
     <h2 class="abmeText">{{aboutme}}</h2>
@@ -71,70 +72,69 @@
   </div>
 
   <div class="abmeElem">
-  <img id='klausImg' src="/assets/images/cloony.jpg" alt="Schöner typ">
-</div>
+    <img id='klausImg' src="/assets/images/cloony.jpg" alt="Schöner typ">
+  </div>
 </div>
 
+<!-- Bookshelf Background -->
 <div class='backgroundContainer'>
 </div>
 
-
-
-
+<!-- Contact / Kontakt und Anschrift -->
 <div class='contactContainer' #cont>
   <div class="contactElem">
-    <h2><fa name="map-marker"></fa> {{addressHead}}</h2>
+    <h2>
+      <fa name="map-marker"></fa> {{addressHead}}
+    </h2>
     <img id='lageImg' src="/assets/images/lage.jpg" alt="Schöner typ">
     <address>
-      <a target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/search/?api=1&query=53.5520978,9.9941995&query_place_id=ChIJlRfBLByPsUcRdOdTwARXiNA">Hermannstraße
-        14</a><br>
+      <a target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/search/?api=1&query=53.5520978,9.9941995&query_place_id=ChIJlRfBLByPsUcRdOdTwARXiNA">Hermannstraße 14</a>
+      <br>
       {{addressPLZ}} {{addressCity}}<br>
-      {{addressCountry}}<br>
+      {{addressCountry}}
+      <br>
+      <br>
+      <br>
+      <br>
     </address>
+    <br>
   </div>
   <div class="contactElem">
-    <h2><fa name="address-card"></fa> {{contactHead}}</h2>
-    <div>
-        <br>
-      <fa name="envelope"></fa>&nbsp;<a href="mailto:m.mustermann@domain.de">klas.peter@example.com</a>
-  </div>
-  <div>
+    <h2>
       <br>
-    <fa name="mobile"></fa> {{number}}
-  </div>
-   <div>
+      <fa name="address-card"></fa> {{contactHead}}
+    </h2>
+    <div>
+      <br>
+      <fa name="envelope"></fa>&nbsp;<a href="mailto:m.mustermann@domain.de">klas.peter@example.com</a>
+    </div>
+    <div>
+      <br>
+      
+      <fa name="mobile"></fa> {{number}}
+    </div>
+    <div>
       <br>
       <fa name="fax"></fa> {{fax}}
       <br><br>
-   </div> 
-   <div>
-     <b>{{timesTitle}}</b>
-     <br>
-     {{times}}
-     <br>
-     {{times}}
-     <br>
-     
-   </div>
-   
+    </div>
+    <div>
+      
+      <br>
+      <b>{{timesTitle}}</b>
+      <br>
+      {{times}}
+      <br>
+      {{times}}
+      <br>
+
+    </div>
+
   </div>
 </div>
 
-
-
-
-
-<nav>
-  <a routerLink="/kontakt">Kontakt</a>
-  <a routerLink="/impressum">Impressum</a>
-</nav>
-
-
-
-
-
-<form action="https://formspree.io/alex.93.loeffler@me.com" method="POST">
-  <input type="text" name="name">
-  <input type="email" name="_replyto">
-  <input type="submit" value="Send">
-</form>
+<!-- Bookshelf Background -->
+<div class='backgroundContainer backgroundContainerBottom'>
+  <br>
+  <fa id='arrowUp' name="arrow-up" (click)="scroll(top)"></fa>
+</div>

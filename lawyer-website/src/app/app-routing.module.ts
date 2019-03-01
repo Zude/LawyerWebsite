@@ -5,10 +5,10 @@ import { MainComponent } from "./main/main.component";
 import { ContactComponent } from "./contact/contact.component";
 
 const routes: Routes = [
-  { path: '', redirectTo: '/index', pathMatch: 'full' },
+  { path: '', redirectTo: '/', pathMatch: 'full' },
   {path: 'impressum', component: ImpressumComponent},
-  {path: 'index', component: MainComponent},
-  {path: 'kontakt', component: ContactComponent}
+  {path: '', component: MainComponent},
+  {path: 'datenschutz', component: ContactComponent}
 ];
 
 @NgModule({
