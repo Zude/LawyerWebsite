@@ -332,7 +332,7 @@ h3 {
 @media (hover: none) {
   .titleContainer {
     background-attachment: initial;
-    height: 90vh;
+    height: 80vh;
   }
 
   .backgroundContainer {
