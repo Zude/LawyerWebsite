@@ -20,8 +20,10 @@
     "@angular/platform-browser-dynamic": "~7.2.6",
     "@angular/router": "~7.2.6",
     "angular-font-awesome": "^3.1.2",
+    "angular-gist": "^2.0.0",
     "core-js": "^2.6.5",
     "font-awesome": "^4.7.0",
+    "ngx-gist": "^1.0.4",
     "rxjs": "~6.4.0",
     "tslib": "^1.9.0",
     "zone.js": "^0.8.29"

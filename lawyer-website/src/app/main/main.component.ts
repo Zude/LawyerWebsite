@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
+
 @Component({
   selector: 'app-main',
   templateUrl: './main.component.html',
@@ -11,7 +12,7 @@ export class MainComponent implements OnInit {
   job = 'Rechtsanwalt';
   subHead = 'Ich bin der Anwalt deines Vertrauens';
   introduction = 'Willkommen';
-  intro1 = 'Hier finden sie einen richtig guten Text, der sie sofort von dieser atemberaubenden Homepage und mir als anwalt total überzeugt. j Hier finden sie einen richtig guten Text, der sie sofort von dieser atemberaubenden Homepage und mir als anwalt total überzeugt. ja ich bin ein super coller typa ich bin ein super coller typ';
+  intro1 = 'Herzlich willkommen auf meiner Homepage. Mein Name ist Klaus Löffler und ich bin seit über 30 Jahren erfolgreicher Rechtsanwalt. Ich stehe meinen Mandanten in zahlreichen Rechtsgebieten mit Rat und Tat zur Seite. Neben ausführlicher und fundierter Rechtsberatung vertrete ich sie sowohl außergerichtlich als auch bei allen Gerichten.';
 
   services = 'Leistungen';
   serv1 = 'Strafrecht';

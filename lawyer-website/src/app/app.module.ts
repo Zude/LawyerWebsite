@@ -8,6 +8,7 @@ import { ImpressumComponent } from './impressum/impressum.component';
 import { ContactComponent } from './contact/contact.component';
 import { AngularFontAwesomeModule } from 'angular-font-awesome';
 import { FooterComponent } from './footer/footer.component';
+import { NgxGistModule } from 'ngx-gist/dist/ngx-gist.module';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { FooterComponent } from './footer/footer.component';
   imports: [
     BrowserModule,
     AngularFontAwesomeModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgxGistModule
   ],
   providers: [],
   bootstrap: [AppComponent]
