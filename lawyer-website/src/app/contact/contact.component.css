@@ -1,0 +1,17 @@
+*{
+    text-align: left;
+    margin-left: 5%;
+}
+h2{
+    font-size: 200%;
+
+    font-weight: bold;
+}
+
+strong{
+    font-weight: bold;
+}
+
+.attentionDataSecurity{
+    font-weight: bold;
+}

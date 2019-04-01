@@ -21,8 +21,8 @@
 <div class='introContainer' #intro>
   <img id='introImg' src="/assets/images/introImage.jpg" alt="Bild einer Wage">
   <div id="introElem">
-    <h2>{{introduction}}</h2>
-    <p class="introText"><br>{{intro1}}</p>
+    <h2>Willkommen</h2> 
+  <p class="introText"><br>Herzlich willkommen auf meiner Homepage. Mein Name ist Klaus Löffler und ich bin seit über 30 Jahren erfolgreicher Rechtsanwalt. Ich stehe meinen Mandanten in zahlreichen Rechtsgebieten mit Rat und Tat zur Seite. Neben ausführlicher und fundierter Rechtsberatung vertrete ich sie sowohl außergerichtlich als auch bei allen Gerichten.</p>
   </div>
 </div>
 
@@ -30,16 +30,13 @@
 
 <!-- Services/Leistungen -->
 <div class='servContainer' #serv>
-  
   <h2 id="servHead">Leistungen</h2>
-
   <div class='servElem'>
     <h3 class="specialHead">Strafrecht</h3>
     <ul>
       <li>Strafverteidigung und Vertretung in Bußgeldverfahren</li>
     </ul>
   </div>
-
   <div class='servElem'>
     <h3 class="specialHead">Familienrecht</h3>
     <ul>
@@ -48,7 +45,6 @@
       <li>Vorbereitung von Eheverträgen und Scheidungsfolgenvereinbarungen.</li>
     </ul>
   </div>
-
   <div class='servElem'>
     <h3 class="specialHead">Ausländerrecht</h3>
     <ul>
@@ -59,7 +55,6 @@
       <li>Einbürgerungen (Erwerb der deutschen Staatsangehörigkeit)</li>
     </ul>
   </div>
-
   <div class='servElem'>
     <h3 class="specialHead">Zivilrecht einschließlich Arbeitsrecht</h3>
     <ul>
@@ -71,20 +66,33 @@
       <li>Kein Wohnraummietrecht</li>
     </ul>
   </div>
-
 </div>
 
+
+
+<!-- Bookshelf Background -->
+<div class='backgroundContainer'>
+</div>
 
 
 <!-- About Me / Ueber Mich -->
 <div class='abmeContainer' #abme>
   <div class="abmeElem">
-    <h2 class="abmeText">{{aboutme}}</h2>
-    <p class="introText">{{intro1}}</p>
+    <h2 class="introHead">Über mich</h2>
+    <p class="introText">
+      Als geborener Münchener lebe ich seit meiner frühen Jugend in der Hansestadt Hamburg und bin zum überzeugten
+      Hanseaten geworden.
+      Dementsprechend habe ich mein Studium an der Universität Hamburg absolviert und anschließend mit dem ersten und
+      zweiten Staatsexamen abgeschlossen.
+      Danach habe ich mich sofort als selbstständiger Rechtsanwalt niedergelassen und habe seit über 30 Jahren meine
+      eigene Kanzlei.
+      Seit 1998 bin ich zusätzlich Fachanwalt für Familienrecht.
+      Ich bin seit Anbeginn meiner Tätigkeit in tausenden von Fällen aus verschiedenen Rechtsgebieten erfolgreich tätig
+      gewesen.
+    </p>
   </div>
-
   <div class="abmeElem">
-    <img id='klausImg' src="/assets/images/cloony.jpg" alt="Schöner typ">
+    <img id='klausImg' src="/assets/images/cloony.jpg" alt="Bild von Klaus Loeffler">
   </div>
 </div>
 
@@ -96,53 +104,53 @@
 <div class='contactContainer' #cont>
   <div class="contactElem">
     <h2>
-      <fa name="map-marker"></fa> {{addressHead}}
+      <fa name="map-marker"></fa> Anschrift
     </h2>
-    <img id='lageImg' src="/assets/images/lage.jpg" alt="Schöner typ">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2370.317596575226!2d9.9941995158462!3d53.552097780022635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b18f1c2c48a749%3A0x7c295495a841ba3f!2sL%C3%B6ffler+Klaus+P.+Rechtsanwalt!5e0!3m2!1sde!2sde!4v1554112875942!5m2!1sde!2sde"
+      width="400" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
     <address>
       <a target="_blank" rel="noopener noreferrer"
-        href="https://www.google.com/maps/search/?api=1&query=53.5520978,9.9941995&query_place_id=ChIJlRfBLByPsUcRdOdTwARXiNA">Hermannstraße
-        14</a>
+        href="https://www.google.com/maps/search/?api=1&query=53.5520978,9.9941995&query_place_id=ChIJlRfBLByPsUcRdOdTwARXiNA">{{addressStreet}}</a>
       <br>
-      {{addressPLZ}} {{addressCity}}<br>
+      {{addressPLZCity}}<br>
       {{addressCountry}}
       <br>
     </address>
     <br>
   </div>
   <div class="contactElem">
-    <h2>
-      <fa name="address-card"></fa> {{contactHead}}
+    <h2 class="contactHead">
+      <fa name="address-card"></fa> Kontakt
     </h2>
+    <p class="officeHead">
+      Büroleitung:
+    </p>
+    <p class="mkText">
+      Frau Melanie Krämer
+    </p>
+    <p id="melanieSubText">
+      (Rechtsfachangestellte und geprüfte Rechtsfachwirtin)
+    </p>
     <div>
-      <br>
-      <fa name="envelope"></fa>&nbsp;<a href="mailto:m.mustermann@domain.de">klas.peter@example.com</a>
+      <fa name="envelope"></fa>&nbsp;<a href="mailto:info@rechtsanwalthamburg.de">{{mail}}</a>
     </div>
     <div>
-      <br>
-
-      <fa name="mobile"></fa> {{number}}
+      <fa name="mobile"></fa> <a href="tel:+49403553230">{{number}}</a>
     </div>
     <div>
-      <br>
       <fa name="fax"></fa> {{fax}}
+      <br>
       <br>
     </div>
     <div class="contactText">
       <br>
-      <b>{{timesTitle}}</b>
+      <b class="officeHead">Sprechzeiten:</b>
       <br>
-      {{times}}
+      <a href="https://goo.gl/maps/3r8oRr3F5ix">Klick mich!</a>
       <br>
-      {{times}}
       <br>
       <br>
     </div>
   </div>
-</div>
-
-<!-- Bookshelf Background -->
-<div class='backgroundContainer backgroundContainerBottom'>
-  <br>
-  <fa id='arrowUp' name="arrow-up" (click)="scroll(top)"></fa>
 </div>

@@ -1,14 +1,28 @@
+a:link {
+  color: #107896;
+}
+
+/* visited link */
+a:visited {
+  color: #C02F1D;
+}
+
 .foot {
   display: flex;
   flex-direction: row;
   background-color: #151515;
   height: 3vh;
   width: 100%;
-  bottom: 0;
+  bottom: 0px;
   position: fixed;
   justify-content: space-evenly;
 }
 
+@media (hover: none) {
+  .foot {
+    height: 5vh;
+  }
+}
 nav {
   width: 100%;
   display: flex;
