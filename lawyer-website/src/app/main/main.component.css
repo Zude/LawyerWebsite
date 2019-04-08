@@ -125,6 +125,9 @@ h3 {
   width: 100%;
   align-items: flex-start;
   align-content: flex-start;
+  background-image: url("/assets/images/serviceImg.jpg");
+  background-attachment: scroll;
+  background-position: top;
 }
 
 #servHead {
@@ -186,7 +189,7 @@ ul {
 }
 
 #klausImg {
-  height: 400px;
+  height: 300px;
   width: auto;
   margin: 5%;
 }
