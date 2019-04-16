@@ -275,6 +275,14 @@ iframe {
 
 /* ============================ Mobile ============================ */
 @media only screen and (max-width: 767px) {
+  .titleHead {
+    font-size: 40px;
+    width: 100%;
+    margin-top: 2%;
+  }
+  h2{
+    font-size: 25px;
+  }
   .titleButton {
     margin: 1%;
   }
