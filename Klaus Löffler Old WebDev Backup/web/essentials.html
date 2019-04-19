@@ -1,0 +1,132 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+
+	<head>
+		<title>Rechtsanwalt Klaus P. L&ouml;ffler</title>
+		<meta name="keywords" content="Mietrecht, Strafrecht, Wirtschaftsrecht, Recht, Rechtsanwalt, Hamburg, Loeffler, Familienrecht, Arbeitsrecht, Sozialrecht, Scheidung, RechtsanwaltHamburg">
+		<link rel="stylesheet" href="style.css" type="text/css">
+		<style type="text/css" media="screen"><!--
+#Ebene3  { visibility: visible; position: absolute; top: 1px; left: 2px; width: 740px; height: 20px }
+#Uhr    { visibility: visible; position: absolute; top: 2px; left: 718px; width: 130px; height: 30px }
+--></style>
+		<csactionitem name="C2F8A4CE14"></csactionitem>
+		<meta http-equiv="content-type" content="text/html;charset=iso-8859-1">
+		<script language="javascript"><!--
+function loeffler(show) {
+popupWin = window.open(show,'info_window','width=500,height=630,scrollbars=no,menubar=no,menu=no,resizable=no,top=30,left=30')
+popupWin.focus() //brings window to top
+;
+}
+//-->
+</script>
+		<csactions>
+			<csaction name="C2F8A4CE14" class="Clock Date (ID)" type="onload" val0="Uhr" val1="" val2="true" val3="true" val4="true" val5="1" val6="false" val7="" val8="" val9=""></csaction>
+		</csactions>
+		<csscriptdict>
+			<script type="text/javascript"><!--
+CSInit = new Array;
+function CSScriptInit() {
+if(typeof(skipPage) != "undefined") { if(skipPage) return; }
+idxArray = new Array;
+for(var i=0;i<CSInit.length;i++)
+	idxArray[i] = i;
+CSAction2(CSInit, idxArray);
+}
+CSStopExecution=false;
+function CSAction(array) {return CSAction2(CSAct, array);}
+function CSAction2(fct, array) { 
+	var result;
+	for (var i=0;i<array.length;i++) {
+		if(CSStopExecution) return false; 
+		var aa = fct[array[i]];
+		if (aa == null) return false;
+		var ta = new Array;
+		for(var j=1;j<aa.length;j++) {
+			if((aa[j]!=null)&&(typeof(aa[j])=="object")&&(aa[j].length==2)){
+				if(aa[j][0]=="VAR"){ta[j]=CSStateArray[aa[j][1]];}
+				else{if(aa[j][0]=="ACT"){ta[j]=CSAction(new Array(new String(aa[j][1])));}
+				else ta[j]=aa[j];}
+			} else ta[j]=aa[j];
+		}			
+		result=aa[0](ta);
+	}
+	return result;
+}
+CSAct = new Object;
+function CSshowtimedateID(action) {
+	(action[2] != "") ? (updateobject = action[2]) : (updateobject = action[1])
+	showtime = action[3]
+	usemilitary = action[4]
+	showdate = action[5]
+	dateformat = action[6]
+	showday = action[7]
+	leadin = action[8]
+	opentag = action[9]
+	closetag = action[10]
+	theTimer = setTimeout("theClockDate()",10);
+}
+function theClockDate() {   
+	now = new Date()
+	theMonth = now.getMonth() + 1
+	theDate = now.getDate()
+	theYear = now.getFullYear()
+	theDay = now.getDay()
+	hours = now.getHours()
+	if(navigator.appVersion.indexOf("MSIE 5.0; Macintosh") != -1) {
+	if (theMonth <= 11 && theMonth >= 4) { hours = hours + 1}
+	}
+	ampm = ((hours >= 12) ? "PM" : "AM");
+	hours = ((hours > 12 && usemilitary == false) ? hours -12 : hours);
+	if (hours == 0) hours = 12;
+	if (hours >= 1 && hours <=9) hours = "0" + hours;
+	minutes = now.getMinutes()
+	if (minutes < 10) minutes = "0" + minutes;
+	time = "";
+	(showtime == true) ? (time = " " + hours + ":" + minutes) : (time = "",ampm="");
+	(usemilitary == true) ? (ampm="") : (ampm=ampm);
+	days = new Array("Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday");
+	today = days[theDay];
+	if (showdate == true) {
+		if (dateformat == 0) todisplay = theMonth + "/" + theDate + "/" + theYear;
+		if (dateformat == 1) todisplay = theDate + "/" + theMonth + "/" + theYear;
+		if (dateformat == 2) todisplay = theYear + "/" + theMonth + "/" + theDate;
+		if (dateformat == 3) todisplay = theYear + "/" + theDate + "/" + theMonth;
+		} else {todisplay = "" }
+	if (showday == true) todisplay =  today + ", " + todisplay;
+	if (document.all) { document.all(updateobject).innerHTML = opentag + leadin + todisplay + time + " " + ampm + closetag; } 
+	else {
+		if (document.getElementById) { document.getElementById(updateobject).innerHTML = opentag + leadin + todisplay + time + " " + ampm + closetag; }
+}
+theTimer = setTimeout("theClockDate()",2000);
+}
+
+// --></script>
+		</csscriptdict>
+		<csactiondict>
+			<script type="text/javascript"><!--
+CSInit[CSInit.length] = new Array(CSshowtimedateID,/*CMP*/ 'Uhr','',true,true,true,1,false,'','','');
+
+// --></script>
+		</csactiondict>
+	</head>
+
+	<body onload="CSScriptInit();" bgcolor="#9dabff">
+		<div id="Ebene3">
+			<span class="klein">
+				<table width="740" border="0" cellspacing="0" cellpadding="0">
+					<tr height="17">
+						<td width="155" height="17">&copy; RA Klaus P. L&ouml;ffler</td>
+						<td height="17">
+							<div align="center">
+								<a href="JavaScript:loeffler('essentials/impressum-f.html');">Impressum</a> &#x2022; <a href="JavaScript:loeffler('nutzungsbedingungen.html');JavaScript:loeffler('essentials/nutzungsbedingungen-f.html');">Nutzungsbedingungen</a> &#x2022; <a href="JavaScript:loeffler('essentials/mandatsbedingungen-f.html');">Mandatsbedingungen</a> &#x2022; <a href="JavaScript:loeffler('essentials/intern-f.html');">Intern</a></div>
+						</td>
+						<td width="80" height="17"></td>
+					</tr>
+				</table>
+			</span></div>
+		<div id="Uhr">
+			<div align="right"></div>
+		</div>
+	</body>
+
+</html>
