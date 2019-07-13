@@ -1,7 +1,0 @@
-### ISPConfig folder protection begin ###
-AuthType Basic
-AuthName "Members Only"
-AuthUserFile /var/www/clients/client13/web49/web/.htpasswd
-require valid-user
-### ISPConfig folder protection end ###
-
