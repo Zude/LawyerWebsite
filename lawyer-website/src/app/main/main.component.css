@@ -55,16 +55,15 @@ h3 {
 }
 
 .titleHead {
-  font-size: 50px;
+  font-size: 40px;
   width: 100%;
-  margin-top: 2%;
-  margin-bottom: 1%;
+  margin-top: 0%;
+  margin-bottom: 0%;
 }
 
 .titleHead2 {
-  font-size: 25px;
+  font-size: 20px;
   width: 100%;
-  margin-top: 1%;
 }
 
 .titleElem {
@@ -195,9 +194,9 @@ ul {
   background-color: #FAFAFA;
 }
 
-#klausImg {
-  height: 300px;
-  width: auto;
+#aboutMe {
+  height: 70%;
+  width: 70%;
   margin: 5%;
 }
 
@@ -284,16 +283,15 @@ iframe {
 @media only screen and (max-width: 767px) {
 
   .titleHead {
-    font-size: 40px;
+    font-size: 25px;
     width: 100%;
-    margin-top: 2%;
+    margin-top: 0%;
+    margin-bottom: 0%;
   }
   
   .titleHead2 {
-    font-size: 23px;
+    font-size: 10px;
     width: 100%;
-    margin-top: 2%;
-    color: #dddddd;
   }
   
   .titleButton {
@@ -306,7 +304,7 @@ iframe {
     flex-flow: wrap;
     align-items: center;
     justify-content: space-around;
-
+    margin: 5%;
   }
 
   #introElem {
@@ -320,9 +318,10 @@ iframe {
   }
 
   #introImg {
-    height: 60%;
-    width: 60%;
+    height: 40%;
+    width: 35%;
     margin: 5%;
+    margin-top: 50;
   }
 
   .servContainer {
