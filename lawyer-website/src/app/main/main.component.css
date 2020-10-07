@@ -43,7 +43,7 @@ h3 {
   height: 97vh;
   width: 100%;
 
-  background-image: url("/assets/images/suit.jpg");
+  background-image: url("/assets/images/elphi.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -58,14 +58,13 @@ h3 {
   font-size: 50px;
   width: 100%;
   margin-top: 2%;
-  margin-bottom: 2%;
+  margin-bottom: 1%;
 }
 
 .titleHead2 {
   font-size: 25px;
   width: 100%;
   margin-top: 1%;
-  color: #b8b8b8;
 }
 
 .titleElem {
