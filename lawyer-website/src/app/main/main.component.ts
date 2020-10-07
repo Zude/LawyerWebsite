@@ -11,8 +11,8 @@ export class MainComponent implements OnInit {
   name = 'Klaus Löffler';
   job = 'Rechtsanwalt';
 
-  addressStreet = 'Hermannstraße 14';
-  addressPLZCity = '20095 Hamburg';
+  addressStreet = 'Waldweg 18';
+  addressPLZCity = '22393 Hamburg (-Sasel)';
   addressCountry = 'Deutschland';
 
   number = '+4940/355323-0';
